@@ -1,12 +1,30 @@
 # Sprint 4 - Nivel 1
 
+
+
+
+
+
+
+
+
+
+
 ## Exercici 2
 /* Mostra la mitjana de la suma de transaccions per IBAN de les targetes de crèdit en la companyia Donec Ltd. utilitzant almenys 2 taules.*/
-SELECT c.company_name, AVG(t.amount) AS media_amount FROM transactions t
+SELECT c.company_name, ROUND(AVG(t.amount), 2) AS media_amount FROM transactions t
 JOIN  credit_cards cc 	ON t.card_id = cc.id
 JOIN companies c 		ON t.business_id = c.company_id
 WHERE c.company_name = "Donec Ltd"
 GROUP BY c.company_name;
+
+
+
+
+
+
+
+
 
 
 # Sprint 4 - Nivel 2
@@ -19,8 +37,11 @@ FROM (	SELECT 	card_id, declined,
 				ROW_NUMBER() OVER (PARTITION BY card_id	ORDER BY timestamp DESC) AS row_num
 		FROM transactions) AS ranked_transactions
 WHERE row_num <= 3 GROUP BY card_id;
+
 /* Quantes targetes estan actives?*/
+SELECT * FROM card_status;
 SELECT count(card_id) FROM card_status WHERE estado = "Activa";
+
 
 
 # Sprint 4 - Nivel 2

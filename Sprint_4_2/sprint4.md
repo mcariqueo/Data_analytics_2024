@@ -127,7 +127,7 @@ Para esta este caso utilice las tablas 'credit_cards', 'transactions' y 'compani
 
 Crea una nova taula que reflecteixi l'estat de les targetes de crèdit basat en si les últimes tres transaccions van ser declinades.
 
-![2](file_csv/S4N2.png)
+![](file_csv/S4N2.png)
 
 
 Para establecer la relacion con las otra tablas, defino las PK y FK respectivamente:
@@ -147,7 +147,7 @@ Quantes targetes estan actives?
 
 Para ello establezco la consulta con la tabla generada anteriormente:
 
-![2](file_csv/S4N2E1.png)
+![](file_csv/S4N2E1.png)
 
 
 
@@ -204,8 +204,7 @@ FOREIGN KEY (product_id) REFERENCES products(id);
 
 El modelo final queda de la siguiente manera:
 
-![2](file_csv/S4esquemafinal.png)
-
+![](file_csv/S4esquemafinal.png)
 
 ## SPRINT 4 - NIVELL 3 Exercici 1
 
@@ -213,4 +212,4 @@ Necessitem conèixer el nombre de vegades que s'ha venut cada producte.
 
 Para ello realizo un select de la tabla generada anteriormente de 'product_tx'
 
-![4](file_csv/S4N3E1.png)
+![](file_csv/S4N3E1.png)

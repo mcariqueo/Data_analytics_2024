@@ -203,7 +203,7 @@ FOREIGN KEY (product_id) REFERENCES products(id);
 ```
 
 El modelo final queda de la siguiente manera:
-![](file_csv/S4esquemafinal.png)
+![](file_csv/S4Esquemafinal.png)
 
 ## SPRINT 4 - NIVELL 3 Exercici 1
 

@@ -213,4 +213,4 @@ Necessitem conèixer el nombre de vegades que s'ha venut cada producte.
 
 Para ello realizo un select de la tabla generada anteriormente de 'product_tx'
 
-![2](file_csv/S4N3E1.png)
+![4](file_csv/S4N3E1.png)

@@ -131,11 +131,9 @@ FROM (SELECT card_id, declined,
 		FROM transactions) AS card_transactions
 WHERE row_num <= 3 GROUP BY card_id;
 
-ALTER TABLE card_status
-ADD PRIMARY KEY (card_id);
+ALTER TABLE card_status ADD PRIMARY KEY (card_id);
 
-ALTER TABLE credit_cards
-ADD CONSTRAINT fk_card_id
+ALTER TABLE credit_cards ADD CONSTRAINT fk_card_id
 FOREIGN KEY (id) REFERENCES card_status(card_id);
 
 -- SPRINT 4 - NIVELL 2   Exercici 1

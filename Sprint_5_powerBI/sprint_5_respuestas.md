@@ -58,19 +58,14 @@ En este caso junto ambos exercicios y realizo pasos similares al ejercicio anter
 
 1. Creo un KPI que indique el objetivo anual 'KPI = 250 €'
 
-2. Realizo una tabla que tenga como campos:
-   1. 'timestamp - year'
-   2. 'recuento de transacciones'
-   3. 'suma total de amount'
-   4. 'promedio amount'
+2. Creo las medidas DAX para obtener el valor para cada año:
 ![512a](files_5/512a.png)
 
-3. Finalmente utilizo la visualizacion de KPI seleccionando:
-   1. KPI = 250 €
-   2. timestam - year --> utilizo el filtro para indicar el año.
-   3. promedio amount
+3. Para cada caso aplico una configuración de formato para que el valor sea rojo cuando no cumple el KPI:
+![512c](files_5/512c.png)
 
-El dashboard queda de la siguiente manera:      
+El dashboard queda de la siguiente manera:  
+
 ![512b](files_5/512b.png)
 
 ## Nivell 1 - Exercici 5
@@ -150,8 +145,47 @@ En aquest exercici, es vol aprofundir en les transaccions realitzades per cada u
 4. Creo una nueva medida DAX para el cambio de € a USD:
 ![518d](files_5/518d.png)
 
+5. Ahora creo la visualización de manera de tener una tabla que contenga los siguientes campos:
 
+   1. Nom i cognom
+   2. Age
+   3. Promedio amount_ euros
+   4. Amount_USD
+![518e](files_5/518e.png)
+
+6. Para identificar aquellos que tienen una mediana de 300 € o 320 USD o mas creo asigno un icono que indique al lado de cada cifa si cumple. Aqui muestro el ejemplo de configuración de icono en el caso de promedio amount en €:
+![518f](files_5/518f.png)
 
 
 ## Nivell 1 - Exercici 9
 Redacta un paràgraf breu, de màxim 50 paraules, explicant el significat de les xifres presentades en les visualitzacions de Power BI. Pots interpretar les dades en general o centrar-te en algun país específic. Acompanya les interpretacions realitzades amb la captura de pantalla de les visualitzacions que analitzaràs.
+
+
+EL dashboar total queda de la siguiente manera:
+![519a](files_5/519a.png)
+
+### Análisis de KPIs de Ventas
+
+Los KPIs proporcionan una visión del rendimiento durante el 2021, mientras que del 2022 se dispone de poca información. 
+
+El año 2021, las ventas superaron ampliamente el objetivo anual, se superó la meta anual de transacciones. China y España tienen menos de 3 empresas, esto permite una oportunidad de mejora en estos mercados.
+
+## Nivell 2 - Exercici 1
+
+Des de l'àrea de màrqueting necessiten examinar la tendència mensual de les transaccions realitzades l'any 2021, específicament, volen conèixer la variació de les transaccions en funció del mes. Recorda visualitzar la meta empresarial d'aconseguir almenys 12.500 transaccions per mes. En aquest exercici, serà necessari que s'aconsegueixi identificar els mesos en què no es va aconseguir la meta establerta. De ser necessari pots realitzar dues visualitzacions.
+
+1. Lo primero es crear la medida de KPI a través de la siguiente formula 'KPI mensual euros = 12000'.
+
+2. 
+
+A continuación genero una tabla considerando mes y suma de amount mensual del 2021. Ademas agrego un icono que permita identificar con una figura roja aquellos meses en los que no se alcanza el KPI.
+
+
+## Nivell 2 - Exercici 2
+
+En el teu treball, es vol aprofundir en la comprensió de les transaccions realitzades a Alemanya. Per tant, et sol·liciten que desenvolupis mesures DAX per a crear visualitzacions que destaquin la mitjana de vendes a Alemanya. Tingues present que l'empresa té com a objectiu aconseguir una xifra de 250 euros anuals. Configura la visualització de manera que el valor mínim sigui 100 i el màxim 350, brindant així una representació més efectiva de la informació.
+
+
+## Nivell 2 - Exercici 3
+
+Escriu un breu paràgraf, màxim de 25 paraules, indica en quin mes no es va arribar a complir amb l'objectiu proposat de l'exercici 1.

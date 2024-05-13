@@ -7,7 +7,9 @@ Importa les dades de la base de dades emprada prèviament. Després de carregar 
 1. En primer lugar, importo la base de datos llamada 'trades4' del sprint anterior:        
 ![](files_5/s5-a.png)
 
-2. Una vez importadas la tablas, realizo las transaformaciones para los campos que sean fechas, amount , price de las tablas. De esta manera podré utilizarlas posteriormente de manera óptima. :
+2. Una vez importadas la tablas, realizo las transaformaciones para los campos que sean fechas, amount , price de las tablas. De esta manera podré utilizarlas posteriormente de manera óptima.
+
+
 |  Tabla     |  Campo       |     Transformación                   |
 |------------|--------------|--------------------------------------|
 |companies   |country       |{"country", type text},               |
@@ -20,7 +22,7 @@ Importa les dades de la base de dades emprada prèviament. Després de carregar 
 |transaction |amount        | {"amount", type number}              |
 |users       |birth_date    | {"birth_date", type date}}           |
 
-3. Finalmente es modelo queda de la siguiente manera:
+1. Finalmente es modelo queda de la siguiente manera:
 ![5b](files_5/s5-b.png)
 
 

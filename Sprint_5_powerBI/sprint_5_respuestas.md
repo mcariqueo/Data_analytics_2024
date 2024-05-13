@@ -223,6 +223,21 @@ Les mesures estadístiques claus de les variables que consideris rellevants per 
 - Visualitza la distribució geogràfica dels usuaris/es.
 En aquesta activitat, serà necessari que realitzis els ajustos necessaris en cada gràfic per a millorar la llegibilitat i comprensió. En el compliment d'aquesta tasca, s'espera que avaluïs acuradament quines variables són rellevants per a transmetre la informació requerida de manera efectiva.
 
+1. Crear la tabla con las medidas
+   1. creo la medida dax que me permita obtener la medida dax a partir de las tablas:
+   ![531c](files_5/531d.png)
 
+   2. Creo una medida que me permita tener una columna que indique "Mayor a 150 €" o "Menor a 150 €)
+   ![531e](files_5/531e.png)
 
+   
+   3. aplico el formato de color para visualizar mejor:
+   ![5c](files_5/531b.png)
 
+2. identifico los datos de latitud y longitud de manera que sea reconocible el tipo de dato:
+
+![531c](files_5/513a.png)
+
+Finalmente obtenergo el dashboard para el nivel:
+
+![531c](files_5/531f.png)

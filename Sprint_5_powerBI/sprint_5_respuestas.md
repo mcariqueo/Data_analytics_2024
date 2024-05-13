@@ -174,18 +174,55 @@ El año 2021, las ventas superaron ampliamente el objetivo anual, se superó la 
 
 Des de l'àrea de màrqueting necessiten examinar la tendència mensual de les transaccions realitzades l'any 2021, específicament, volen conèixer la variació de les transaccions en funció del mes. Recorda visualitzar la meta empresarial d'aconseguir almenys 12.500 transaccions per mes. En aquest exercici, serà necessari que s'aconsegueixi identificar els mesos en què no es va aconseguir la meta establerta. De ser necessari pots realitzar dues visualitzacions.
 
-1. Lo primero es crear la medida de KPI a través de la siguiente formula 'KPI mensual euros = 12000'.
+1. Lo primero es crear la medida de KPI a través de la siguiente formula KPI mensual euros = 12500 €.
+2. Creo una medida DAX que permita calcular la suma total de amount para el año 2021 y que pueda relacionarla con timestamp[mes]
+![521a](files_5/521a.png)
 
-2. 
+3. Para la visualización descargo un objeto visual:   
+![521a](files_5/521b.png)
 
-A continuación genero una tabla considerando mes y suma de amount mensual del 2021. Ademas agrego un icono que permita identificar con una figura roja aquellos meses en los que no se alcanza el KPI.
+4. Utilizo las medidas DAX y KPI para hacer mostrar la grafica:
+   1. En el eje Y: timestamp[mes]
+   2. En el eje X1: Total amount
+   3. En el eje X2: KPI = 12500    
+![521c](files_5/521c.png)
+
+Se observa claramente que los meses que estaa por debajo del KPI
+
 
 
 ## Nivell 2 - Exercici 2
 
 En el teu treball, es vol aprofundir en la comprensió de les transaccions realitzades a Alemanya. Per tant, et sol·liciten que desenvolupis mesures DAX per a crear visualitzacions que destaquin la mitjana de vendes a Alemanya. Tingues present que l'empresa té com a objectiu aconseguir una xifra de 250 euros anuals. Configura la visualització de manera que el valor mínim sigui 100 i el màxim 350, brindant així una representació més efectiva de la informació.
 
+1. Creo una medida que sea 'KPI = 250'
+2. La medida DAX será un promedio de las ventas, filtrando por alemania y para el año 2021:
+   ![522a](files_5/522a.png)
+3. finalemente realizo la configuración para la visualización:
+     ![522b](files_5/522b.png)
+
+
+La visualización del srpint 5, ejjercicio 2 queda de la siguiente manera:
+    ![522c](files_5/522c.png)
 
 ## Nivell 2 - Exercici 3
 
 Escriu un breu paràgraf, màxim de 25 paraules, indica en quin mes no es va arribar a complir amb l'objectiu proposat de l'exercici 1.
+
+**Respuesta:**
+
+Hubo 5 meses que no alcanzaron la meta. Será necesario analizar las causas (temporada baja, falta de campañas, etc.) para proponer estrategias de mejora y aumentar las ventas.
+
+## Nivell 3 - Exercici 1
+La secció de màrqueting vol aprofundir en les transaccions realitzades pels usuaris i usuàries. En conseqüència, se't sol·licita l'elaboració de diverses visualitzacions que incloguin:
+
+Les mesures estadístiques claus de les variables que consideris rellevants per a comprendre les transaccions realitzades pels usuaris/es.
+- Quantitat de productes comprats per cada usuari/ària.
+- Mitjana de compres realitzades per usuari/ària, visualitza quins usuaris/es tenen una mitjana de compres superior a 150 i quins no.
+- Mostra el preu del producte més car comprat per cada usuari/ària.
+- Visualitza la distribució geogràfica dels usuaris/es.
+En aquesta activitat, serà necessari que realitzis els ajustos necessaris en cada gràfic per a millorar la llegibilitat i comprensió. En el compliment d'aquesta tasca, s'espera que avaluïs acuradament quines variables són rellevants per a transmetre la informació requerida de manera efectiva.
+
+
+
+

@@ -1,15 +1,20 @@
 
 # SPRINT 6
 
-Descripció
-En aquest exercici, practicaràs amb la creació de diverses visualitzacions en POWER BI. Durant aquest sprint, és crucial que organitzis la informació de manera eficient i clara, mantenint en ment els objectius de cada gràfic. En el nivell 1, s'espera que generis visualitzacions que facilitin la comprensió del patró de vendes per país. En el nivell 2, aprofundirem en les transaccions de les empreses, tenint en compte el factor temporal. Finalment, en el nivell 3, es crearan visualitzacions per a analitzar el patró de transaccions per usuari i producte.
+En el nivell 1, s'espera que generis visualitzacions que facilitin la comprensió del patró de vendes per país. 
 
 ## Nivell 1 -  Exercici 1
 
 L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. Com a part d'aquest procés, et demanen que triïs un gràfic en el qual es detalli la mitjana de vendes desglossades per país i any en una mateixa presentació visual. És necessari assenyalar les mitjanes que són menors a 200 euros anuals.
 
-Que necesito: 
-- Evaluar el rendimiento de ventas a nivel internacional a través de un grafico que mmuestre la media de ventas por pais y año y una misma grafica, e identificar la medias que son menores a 200 euros.
+1. Creo una tabla que tenga:
+    1. promedio de ventas, pais, año.
+   ![b](files_6/611b.png)
+    2. Con la visualización anterior elijo el grafico de barras agrupadas que me permite ver de manera ordenadad cada año. 
+    ![a](files_6/611a.png)
+    3. Generó 
+   
+1. 
 
 ## Nivell 1 - Exercici 2
 
@@ -33,6 +38,8 @@ El teu cap t'ha demanat preparar una presentació per al teu equip en la qual es
 
 ## Nivell 2
 
+En el nivell 2, aprofundirem en les transaccions de les empreses, tenint en compte el factor temporal. 
+
 Exercici 1
 La teva tasca consisteix a implementar un filtre interactiu que permeti seleccionar les vendes per a cada any.
 
@@ -51,6 +58,10 @@ Selecciona una visualització en la qual es reflecteixi els estadístics descrip
 
 Nivell 3
 Exercici 1
+
+Finalment, en el nivell 3, es crearan visualitzacions per a analitzar el patró de transaccions per usuari i producte.
+
+
 En la teva empresa, volen aprofundir en l'anàlisi de les característiques dels usuaris que participen en les transaccions, així com en els productes venuts. T'han demanat que creïs visualitzacions rellevants per a millorar estratègicament les campanyes publicitàries i augmentar les vendes. Les visualitzacions que has d'incloure són les següents:
 Informació personal dels usuaris/es.
 •	Quantitat de transaccions realitzades i rebutjades. L'empresa espera que cada usuari/ària tingui almenys 10 transaccions per any, i que tinguin menys de 2 transaccions rebutjades per any.

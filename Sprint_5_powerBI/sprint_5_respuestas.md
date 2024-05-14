@@ -5,31 +5,21 @@
 Importa les dades de la base de dades emprada prèviament. Després de carregar les dades, mostra el model de la base de dades en Power BI.
 
 1. En primer lugar, importo la base de datos llamada 'trades4' del sprint anterior:        
-![](files_5/s5-a.png)
+   ![](files_5/s5-a.png)
 
 2. Una vez importadas la tablas, realizo las transaformaciones para los campos que sean fechas, amount , price de las tablas. De esta manera podré utilizarlas posteriormente de manera óptima.
-
-
-|  Tabla     |  Campo       |     Transformación                   |
-|------------|--------------|--------------------------------------|
-|companies   |country       |{"country", type text},               |
-|companies   |url           |{"website", type text}                |
-|companies   |email         |{"email", type text}                  |
-|Product     |price         | "$","",Replacer.ReplaceText,{"price"}|
-|Product     |price         | {"price", Currency.Type}             |
-|credit card | expired date | {"expiring_date", type date}         |
-|transaction |timestamp     | {"timestamp", type datetime}         |
-|transaction |amount        | {"amount", type number}              |
-|users       |birth_date    | {"birth_date", type date}}           |
+  ![](files_5/51a.png)
+    |
 
 1. Finalmente es modelo queda de la siguiente manera:
-![5b](files_5/s5-b.png)
+   ![5b](files_5/s5-b.png)
 
 
 4. Para desarrollar los ejercicios crearé una tabla que me permita almacenar las medidas y calculos que vaya desarrollando a lo largo del ejercicio. Para ello debo:
    1. Insertar datos
    2. nombrarlo 'medidasLog'
    3. comenzar a crear en esta tabla las medidas que escriba.
+   ![](files_5/51b.png)
 
 ## Nivell 1 - Exercici 2
 
@@ -42,7 +32,7 @@ La teva empresa està interessada a avaluar la suma total del amount de les tran
 ![511b](files_5/511b.png)
 4. Finalmente utilizo la visualizacion de KPI para indicar el objetivo en 2021 y 2022.
    1. KPI = 25.000 €
-   2. timestamp --> utilizo el filtro para indicar el año.
+   2. timestamp 
    3. total amount (Suma)
 
 El dashboard queda de la siguiente manera:
@@ -114,7 +104,7 @@ El dasboard final es el siguiente:
 Crea un gràfic de columnes agrupades que reflecteixi la sumatòria de les vendes per mes. L'objectiu de l'empresa és tenir almenys 10.000 transaccions per mes.
 
 1. Creo el KPI = 10000 € en la tabla medidalog
-2. Utilizo la segmentación de datos para crear un mosaico con los años 2021 y 2022. De esta manera podré diferenciar en el grafico que realizaré cada año y visualizarlos
+2. Utilizo la segmentación de datos para crear un mosaico con los años 2021 y 2022. De esta manera podré diferenciar en el grafico que realizaré cada año y visualizarlos. Es importante señalar que debo indicar la "selección unica" para que el gráfico solo indique un año a la vez:
 ![517a](files_5/517a.png)
 
 3. Realizo un grafico de barras y lineas considerando:

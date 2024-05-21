@@ -1,23 +1,22 @@
 
 # SPRINT 6
 
-En el nivel 1, se espera que generes visualizaciones que faciliten la comprensión del patrón de ventas por país. 
-
 ## Nivell 1 -  Exercici 1
 
 L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. Com a part d'aquest procés, et demanen que triïs un gràfic en el qual es detalli la mitjana de vendes desglossades per país i any en una mateixa presentació visual. És necessari assenyalar les mitjanes que són menors a 200 euros anuals.
 
-1. Creo una tabla que tenga:
-    1. promedio de ventas, país, año.
+Creo una tabla que tenga:
+
+1. promedio de ventas, país, año.
    ![b](files_6/611b.png)
-    2. Con la visualización anterior elijo el grafico de barras agrupadas que me permite ver de manera ordenada cada año. 
+2. Con la visualización anterior elijo el grafico de barras agrupadas que me permite ver de manera ordenada cada año. 
     ![a](files_6/611a.png)
-    3. Agrego una línea constante que indique el KPI = 200 €:
+3. Agrego una línea constante que indique el KPI = 200 €:
     ![c](files_6/611c.png)
-    4. Finalmente agrego al costado una segmentación de datos con año y country, de manera que sirva para poder analizar dinámicamente la visualización.
+4. Finalmente agrego al costado una segmentación de datos con año y country, de manera que sirva para poder analizar dinámicamente la visualización.    
     ![d](files_6/611d.png)
 
-2. Finalmente el dashboard es el siguiente:
+Finalmente el dashboard es el siguiente:
 ![e](files_6/611e.png)
 
 ## Nivell 1 - Exercici 2
@@ -25,15 +24,19 @@ L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. C
 L'empresa està interessada a obtenir una visió general de les transaccions realitzades per cada país. La teva tasca és crear una visualització que identifiqui el percentatge de les vendes per país.
 
 1. En primer lugar, realizo una tabla que indique: country y suma amount
+
 2. Filtro el grafico a través de ‘declined = 0’:
+   
    ![612a](files_6/612a.png)
 
 3. Indico a la visualización que indique categoría (country) y porcentaje del total:
+   
    ![612b](files_6/612b.png)
 
 4. Elimino la interacción entre el ejercicio 1 y 2, para no alterar la visualización.  
 
-   El resultado final es:
+**El resultado final es:**
+
    ![612c](files_6/612c.png)
 
 ## Nivell 1 - Exercici 3
@@ -62,6 +65,7 @@ Crea una visualització en la qual es pugui comptabilitzar el nombre de transacc
       ![614a](files_6/614b.png)
 
 3. El resultado es el siguiente:
+
    ![614b](files_6/614a.png)
 
 ## Nivell 1 - Exercici 5
@@ -77,15 +81,22 @@ Finalmente el dashboard general es el siguiente:
 
 ## Nivell 1 - Exercici 6
 
-El teu cap t'ha demanat preparar una presentació per al teu equip en la qual es detallin la informació de tots els gràfics visualitzats fins ara. 
+El teu cap t'ha demanat preparar una presentació per al teu equip en la qual es detallin la informació de tots els gràfics visualitzats fins ara. Per a complir amb aquesta sol·licitud, has de proporcionar una interpretació de les visualitzacions obtingudes. 
 
-Per a complir amb aquesta sol·licitud, has de proporcionar una interpretació de les visualitzacions obtingudes. 
+### Análisis de Transacciones en España
 
-La presentació pot realitzar-se amb la informació general o seleccionant un element en particular, com per exemple, els resultats d'Espanya.
+---
 
-**Descripción de España:**
 ![616b](files_6/616b.png)
 
-Podemos observar que España concentra una baja proporción de las transacciones a nivel global.
-En el gráfico E2, se evidencia que la participación de España es significativamente menor en comparación con otros países. Además, España no registró transacciones en el año 2022, lo que resulta en una media de 0 € para ese año. Este hecho explica la disminución del 100% en el volumen de transacciones de España.
-Las transacciones rechazadas en España son únicamente 1, lo cual está por debajo del KPI establecido de 5 y también por debajo del promedio de los otros países analizados. Aunque este dato es favorable en términos de cumplimiento de KPIs, también puede estar correlacionado con el bajo volumen total de transacciones realizadas en el país.
+---
+
+***España*** se destaca por su baja participación en el panorama global de transacciones financieras. En el gráfico E2, esta realidad se hace evidente al observar la marcada diferencia en la participación de *España* en comparación con otros países.
+
+Es notable mencionar que en el año 2022, *España* no registró ninguna transacción, lo que resultó en una media de ventas de **0 €** para dicho año. Esta circunstancia explica la drástica disminución del **100%** en el volumen de transacciones de *España* en ese período.
+
+Adicionalmente, es importante destacar que solo se rechazó una transacción en *España*, una cifra notablemente por debajo del **KPI** establecido de **5** y también inferior al promedio de rechazos en otros países analizados. Aunque este dato sugiere un cumplimiento satisfactorio de los **KPIs**, también podría estar relacionado con el reducido volumen total de transacciones realizadas en el país.
+
+¡Estos indicadores subrayan la necesidad de una mayor exploración y análisis del panorama financiero de *España* para comprender a fondo su posición en el contexto global!
+
+

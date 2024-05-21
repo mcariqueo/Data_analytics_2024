@@ -12,19 +12,11 @@ L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. C
    ![b](files_6/611b.png)
     2. Con la visualización anterior elijo el grafico de barras agrupadas que me permite ver de manera ordenada cada año. 
     ![a](files_6/611a.png)
-<<<<<<< HEAD
     3. Agrego una línea constante que indique el KPI = 200 €:
     ![c](files_6/611c.png)
     4. Finalmente agrego al costado una segmentación de datos con año y country, de manera que sirva para poder analizar dinámicamente la visualización.
     ![d](files_6/611d.png)
 
-=======
-    3. Agrego una linea constante que indique el KPI = 200 €:
-    ![c](files_6/611c.png)
-    4. Finalmente agrego al costado una segmentacion de datos con año y country, de manera que sirva para poder analizar dinamicamente la visualización.
-    ![d](files_6/611d.png)
-   
->>>>>>> 87091ffee17e24c33b73a639d5609d0e18b5c6f8
 2. Finalmente el dashboard es el siguiente:
 ![e](files_6/611e.png)
 
@@ -33,7 +25,6 @@ L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. C
 L'empresa està interessada a obtenir una visió general de les transaccions realitzades per cada país. La teva tasca és crear una visualització que identifiqui el percentatge de les vendes per país.
 
 1. En primer lugar, realizo una tabla que indique: country y suma amount
-<<<<<<< HEAD
 2. Filtro el grafico a través de ‘declined = 0’:
    ![612a](files_6/612a.png)
 
@@ -44,25 +35,11 @@ L'empresa està interessada a obtenir una visió general de les transaccions rea
 
    El resultado final es:
    ![612c](files_6/612c.png)
-=======
-2. Filtro el grafico a traves de declined = 0:
-   ![612a](files_6/612a.png)
-
-3. Indico a la visualización que indique categoria (country) y porcentaje del total:
-   ![612b](files_6/612b.png)
-
-4. Elimino la interaccion entre el ejercicio 1 y 2, para no alterar la visualización.  
-
-El resultado final es:
-
- ![612c](files_6/612c.png)
->>>>>>> 87091ffee17e24c33b73a639d5609d0e18b5c6f8
 
 ## Nivell 1 - Exercici 3
 
 Dissenya un indicador visual en Power BI per a analitzar la diferència de vendes entre els anys 2022 i 2021 en cada país. L'empresa està interessada a comprendre com han variat les vendes en diferents països durant aquest període i desitja identificar qualsevol disminució o augment significatiu en les vendes.
 
-<<<<<<< HEAD
 1. Creo dos medidas DAX para tener el promedio de venta. Esto me permite tener un valor que represente mejor las diferencias, ya que el 2021 contiene más datos que el 2022.
    ![613a](files_6/613a.png)
    ![613b](files_6/613b.png)
@@ -74,17 +51,6 @@ Dissenya un indicador visual en Power BI per a analitzar la diferència de vende
    1. Será un grafico que indique las ventas por año de cada pais.
    2. Tendrá una linea o puntos que indiquen la variación de las ventas entre 2022 y 2021.
    ![613d](files_6/613d.png)
-=======
-
-1. Creo dos medidas dax para tener el promedio de venta. Esto me permite tener un valor que represente mejor las diferencias, ya que el 2021 contiene mas datos que el 2022.
-   ![613a](files_6/613a.png)
-   ![613b](files_6/613b.png)
-
-2. A continuación, creo una medida DAX para obtener el porcentaje de diferencia entre la media del 2021 y 2022, siendo negativo una disminución y positivo un aumento del promedio de ventas:
-   ![613c](files_6/613c.png)
-
-
->>>>>>> 87091ffee17e24c33b73a639d5609d0e18b5c6f8
 
 ## Nivell 1 - Exercici 4
 

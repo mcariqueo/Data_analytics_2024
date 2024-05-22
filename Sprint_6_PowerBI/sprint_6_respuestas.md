@@ -29,7 +29,7 @@ Finalmente, el dashboard resultante es el siguiente:
 
 De esta visualización podemos ver que:
 
-1. El KPI de ventas promedio del año 2022 es superado por Nueva Zelanda, Noruega, Irlanda , Suecia , UK y USA. 
+1. El KPI de ventas promedio del año 2022 es superado por Nueva Zelanda, Noruega, Irlanda , Suecia , UK y USA.
 
 2. España no tiene ventas el año 2022, por lo que sus ventas son 0 €, mientras que para el 2021 no cumple con el KPI de ventas de 200 €.
 
@@ -66,11 +66,14 @@ Dissenya un indicador visual en Power BI per a analitzar la diferència de vende
    ![613a](files_6/613a.png)
    ![613b](files_6/613b.png)
 
-2. **Crear una medida DAX** para calcular el crecimiento comparando el año 2022 con 2021. De esta manera se obtiene un dato que permite saber si el crecimiento es positivo o negativo. Agrego el (0) para evitar errores en caso de división por cero. 
+2. **Crear una medida DAX** para calcular el crecimiento comparando el año 2022 con 2021. De esta manera se obtiene un dato que permite saber si el crecimiento es positivo o negativo. Agrego el (0) que se devuelve si el denominador es 0 (para evitar errores de división por cero).
+
+La fórmula Crecimiento YoY % calcula el porcentaje de crecimiento de las ventas promedio de un año con respecto al año anterior, manejando de manera segura la posible división por cero y expresando el resultado como un porcentaje.
 
    ![613c](files_6/613c.png)
 
 3. **Elegir la visualización** adecuada teniendo en cuenta lo siguiente:
+
    1. Será un gráfico que indique las ventas por año de cada país.
    2. Tendrá una línea o puntos que indiquen la variación de las ventas entre 2022 y 2021.
 

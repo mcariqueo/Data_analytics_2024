@@ -255,8 +255,4 @@ EL dashboard total queda de la siguiente manera:
 
 ### Análisis de KPIs de Ventas
 
-El análisis destaca una eficiencia operativa sobresaliente en 2021 con 125.874,69 € en transacciones, superando el objetivo por 403,5%. 
-
-En 2022, con pocos datos disponibles, algunas empresas cumplen KPIs posiblemente debido al bajo número de transacciones. 
-
-Podría recomendar la implementación de campañas de marketing y acciones para incentivar las ventas en meses de baja actividad y reducir transacciones declinadas a través de mejora de las tecnologias y capacitación del personal. 
+Se han superado los objetivos de transacciones en 2021 y hay un buen progreso en 2022, con media de ventas anual superior al objetivo en 2021. Es necaesario aumentar participación empresarial en España y China, reducir transacciones declinadas y ajustar estrategias de ventas y marketing según tendencias estacionales. Finalmente se deben implementar estrategias de marketing específicas, optimizar operaciones y monitorear KPIs para adaptar estrategias y asegurar el cumplimiento de objetivos.

@@ -39,6 +39,12 @@ De esta visualización podemos ver que:
    
    3. **Ausencia de Datos para los Países en el 2022:** Es posible observar que no hay datos disponibles para Netherlands y España en el año 2022 en la visualización. Esto puede indicar que no hubo transacciones registradas para estos países en ese período.
 
+### Observaciones y analisis 
+
+En 2021, los objetivos de ventas no se cumplieron en Italia, Nueva Zelanda y España. Estos mercados necesitan una revisión detallada para entender las razones del bajo rendimiento. Posibles factores a investigar incluyen estrategias de marketing locales, productos ofrecidos y competencia. En 2022, pocos países han alcanzado el objetivo de ventas de 200 €, indicando un posible problema global o de segmentación del mercado.
+
+Estos datos nos permiten recomendar la asignación de recursos adicionales a los países con un alto potencial de crecimiento y un desempeño aceptable, como Alemania y Reino Unido, que demostraron una alta participación en ventas.
+
 
 ## Nivell 1 - Exercici 2
 
@@ -90,9 +96,11 @@ Dissenya un indicador visual en Power BI per a analitzar la diferència de vende
 
 ![613d](files_6/613d.png)
 
-Se puede deducir que la mayoría de los países experimentaron una disminución en las ventas promedio al comparar los años 2022 y 2021. Esta disminución se destaca claramente en el gráfico, que resalta las diferencias negativas. No obstante, Nueva Zelanda, Irlanda e Italia registraron un aumento en sus ventas durante este período.
+Se puede deducir que la mayoría de los países experimentaron una disminución en las ventas promedio al comparar los años 2022 y 2021. Esta disminución se destaca claramente en el gráfico, que resalta las diferencias negativas. No obstante, Nueva Zelanda, Irlanda e Italia registraron un aumento en sus ventas durante este período. Por otro lado, Países Bajos y España presentan una disminución del 100%, ya que no se registraron transacciones en estos países durante el 2022.
 
-Por otro lado, Países Bajos y España presentan una disminución del 100%, ya que no se registraron transacciones en estos países durante el 2022.
+### Rendimiento de transacciones y campañas
+
+Es necesario repetir campañas que demostraron un alto rendimiento y ajustar o descartar las menos efectivas. Sería posible implementar comprobacion en las campañas reevaluadas para optimizar los resultados antes de una implementación completa.
 
 
 
@@ -110,7 +118,11 @@ Crea una visualització en la qual es pugui comptabilitzar el nombre de transacc
 
 ![614b](files_6/614a.png)
 
-Al visualizar los datos de 2022 y 2021, se observa que solo 6 de los 15 países cumplieron con el objetivo de tener un máximo de 5 transacciones declinadas. Estos países son Bélgica, Nueva Zelanda, Canadá, Francia, China y España. Cabe destacar que España tuvo solo 1 transacción declinada; sin embargo, esto se debe en parte a que el número total de transacciones en España es relativamente bajo.
+Al visualizar los datos de 2022 y 2021, se observa que solo 6 de los 15 países cumplieron con el objetivo de tener un máximo de 5 transacciones declinadas. Estos países son Bélgica, Nueva Zelanda, Canadá, Francia, China y España. Cabe destacar que España tuvo solo 1 transacción declinada; sin embargo, esto se debe en parte a que el número total de transacciones en España es relativamente bajo. 
+
+### Revisar y mejorar los procesos de aprobación de transacciones para reducir el número de transacciones declinadas. 
+
+Estos datos sugieren un problema en el proceso de transacciones en varios mercados. Es necesario Implementar capacitaciones y mejoras tecnológicas para optimizar las operaciones en mercados con bajo rendimiento. Tambien es recomendable la evaluación de los productos y servicios del personal, es posible que la transacciones rechazadas sean en parte por motivos logistico y tambien esta la opcion de ofrecer facilidades de pago en caso productos que sea de alto valor. 
 
 ## Nivell 1 - Exercici 5
 
@@ -126,6 +138,9 @@ Para esto, se genera una visualización mediante un mapa, donde el tamaño de la
 En el mapa de visualización, sobresale el Reino Unido y Alemania como los países con un mayor volumen de compras, mientras que Canadá, Suecia, Noruega e Irlanda presentan un número de transacciones intermedio. Por otro lado, los países con un menor número de transacciones incluyen a Estados Unidos, España, Francia, Italia, Bélgica, Países Bajos, China, Australia y Nueva Zelanda. 
 
 El tamaño de cada burbuja en el mapa se corresponde con el número de transacciones por país, lo que ofrece una representación visual precisa del nivel de actividad comercial.
+
+### Recomendaciones de optimización: 
+Los datos de distribución geográfica de las ventas para identificar nuevos mercados prometedores. Países con un crecimiento en ventas, como Nueva Zelanda, Irlanda e Italia, pueden ser objetivos prioritarios para la expansión. Implementar campañas piloto en nuevos mercados para evaluar su viabilidad antes de una expansión completa. Siempre será necesario considerar el rdirigir recursos de mercados con baja o nula actividad (como España y Países Bajos en 2022) hacia mercados emergentes o con mayor retorno.
 
 
 ## Nivell 1 - Exercici 6
@@ -149,3 +164,8 @@ Es notable mencionar que en el año 2022, *España* no registró ninguna transac
 Adicionalmente, es importante destacar que solo se rechazó una transacción en *España*, una cifra notablemente por debajo del **KPI** establecido de **5** y también inferior al promedio de rechazos en otros países analizados. Aunque este dato sugiere un cumplimiento satisfactorio de los **KPIs**, también podría estar relacionado con el reducido volumen total de transacciones realizadas en el país.
 
 Estos indicadores subrayan la necesidad de una mayor exploración y análisis del panorama financiero de *España* para comprender a fondo su posición en el contexto global
+
+
+### Conclusión
+
+La clave para el renacimiento y éxito futuro de la empresa radica en una evaluación exhaustiva de los datos históricos, una asignación estratégica de recursos y una planificación cuidadosa de la expansión. Tomar decisiones basadas en datos precisos y actualizados, junto con una revisión crítica de las estrategias pasadas, permitirá a la empresa corregir sus fallos y aprovechar nuevas oportunidades de crecimiento. Tambien es importante considerar la revision del portafolio de productos y servicios ofrecidos en mercados con bajo rendimiento para asegurarse de que son relevantes y competitivos. Ademas de  ajustar las ofertas basadas en la demanda y preferencias locales para mejorar la aceptación del mercado.

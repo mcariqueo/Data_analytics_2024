@@ -6,7 +6,10 @@
 
 
 
+letras = [chr(i) for i in range(ord('a'), ord('z')+1)]
 
+# Imprimir la lista
+print(letras)
 
 
 

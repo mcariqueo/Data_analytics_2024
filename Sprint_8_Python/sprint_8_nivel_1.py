@@ -10,3 +10,22 @@ pip install mysql-connector-python --upgrade
 
 # Optional, installs the X DevAPI interface
 pip install mysqlx-connector-python
+
+
+
+
+
+# UTILIZO UNA FUNCÓN PARA QUE INDIQUE SI LOS VALORES PERMITEN TENER METRICAS: 
+
+def display_summary_statistics(df, column):
+    try:
+        summary_statistics = df[column].describe().loc[['mean', 'std', 'min', 'max']]
+        print(f"{column.capitalize()} Estadigrafos se muestrar ok.")
+        return True
+    except KeyError:
+        print(f"Error: Column '{column}' does not exist in the DataFrame.")
+        return False
+
+# LLAMO A LA FUNCION PARA OBTENER LAS METRICAS DE AMBAS COLUMNAS
+display_summary_statistics(df_transactions, 'amount')
+display_summary_statistics(df_users, 'age')

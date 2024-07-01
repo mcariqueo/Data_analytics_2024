@@ -12,7 +12,12 @@ pip install mysql-connector-python --upgrade
 pip install mysqlx-connector-python
 
 
-
+from sqlalchemy import create_engine
+conexion = create_engine(f'mysql+mysqlconnector://root:Mysql-1904@localhost/olympics-dos') ###ojo hay que poner el nombre de la base de datos y es mejor si no tiene guiones
+connection = conexion.raw_connection()
+cursor = connection.cursor()
+cursor.execute('DROP DATABASE `olympics-dos`;')  # ojo con los `` 
+conexion.dispose()
 
 
 # UTILIZO UNA FUNCÓN PARA QUE INDIQUE SI LOS VALORES PERMITEN TENER METRICAS: 

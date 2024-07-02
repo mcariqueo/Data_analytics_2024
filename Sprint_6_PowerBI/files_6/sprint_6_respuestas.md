@@ -1,45 +1,47 @@
 
 # SPRINT 6
 
-## Nivell 1 -  Exercici 1
+# Nivell 1 -  Exercici 1
 
-L'empresa necessita avaluar el rendiment de les vendes a nivell internacional. Com a part d'aquest procés, et demanen que triïs un gràfic en el qual es detalli la mitjana de vendes desglossades per país i any en una mateixa presentació visual. És necessari assenyalar les mitjanes que són menors a 200 euros anuals.
+#### **Situación**
+La empresa necesita evaluar el rendimiento de las ventas a nivel internacional, detallando la media de ventas desglosadas por país y año, destacando aquellas inferiores a 200 euros anuales.
 
+#### Desarrollo
 Para ello, seguimos los siguientes pasos:
 
-   1. **Crear una tabla** con las siguientes columnas: país, año, y el promedio de ventas para estos dos criterios.
-   ![b](files_6/611b.png)
+1. **Crear una tabla** con las columnas: país, año, y el promedio de ventas.
+![b](files_6/611b.png)
 
-   2. **Seleccionar un gráfico de barras agrupadas** que permita ver de manera ordenada las ventas por cada año en cada país.
+2. **Seleccionar un gráfico de barras agrupadas**  para visualizar ventas por año y país.
    ![a](files_6/611a.png)
 
-   3. **Agregar una línea constante** que indique el KPI de 200 € para resaltar los promedios inferiores a este valor:
+3. **Agregar una línea constante** que indique el KPI de 200 €.
    ![c](files_6/611c.png)
 
-   4. **Incluir una segmentación de datos** por año y país al lado del gráfico para un análisis dinámico de la visualización.    
+4. **Incluir una segmentación de datos** por año y país.
    ![d](files_6/611d.png)
 
-   5. **Filtrar los datos** para asegurarse de que solo se muestran las transacciones aprobadas (`declined = 0`):    
+5. **Filtrar los datos** para asegurarse de que solo se muestran las transacciones aprobadas (`declined = 0`):    
    ![612a](files_6/612a.png)
 
-### Analisis del exercici 1
+#### Descripción y Análisis
 
 Finalmente, el dashboard resultante es el siguiente:
 
 ![e](files_6/611e.png)
 
-De esta visualización podemos ver que:
+El dashboard resultante muestra:
 
-   1. **Desempeño de Ventas en el 2021:** en el año 2021, no se cumplen los objetivos de ventas en Italia, Nueva Zelanda y España. Sin embargo, en los 12 paises restantes efectivamente se cumple el KPI de 200 €.
+1. **Desempeño de Ventas en el 2021:** en el año 2021, no se cumplen los objetivos de ventas en Italia, Nueva Zelanda y España. Sin embargo, en los 12 paises restantes efectivamente se cumple el KPI de 200 €.
    
-   2. **Objetivos en el 2022:** Al momento de obtener estos datos es posible observar que pocos paises alcanzan el objetivo de 200 €. Son siete paises los que superan el KPI a la fecha del año 2022.
+2. **Objetivos en el 2022:** Al momento de obtener estos datos es posible observar que pocos paises alcanzan el objetivo de 200 €. Son siete paises los que superan el KPI a la fecha del año 2022.
    
-   3. **Ausencia de Datos para los Países en el 2022:** Es posible observar que no hay datos disponibles para Netherlands y España en el año 2022 en la visualización. Esto puede indicar que no hubo transacciones registradas para estos países en ese período.
+3. **Ausencia de Datos para los Países en el 2022:** Es posible observar que no hay datos disponibles para Netherlands y España en el año 2022 en la visualización. Esto puede indicar que no hubo transacciones registradas para estos países en ese período.
 
-### Observaciones y analisis 
-
-En 2021, los objetivos de ventas no se cumplieron en Italia, Nueva Zelanda y España. Estos mercados necesitan una revisión detallada para entender las razones del bajo rendimiento. Posibles factores a investigar incluyen estrategias de marketing locales, productos ofrecidos y competencia. En 2022, pocos países han alcanzado el objetivo de ventas de 200 €, indicando un posible problema global o de segmentación del mercado.
-
+#### Recomendaciones
+1. **Estrategias de Marketing y Productos:** Revisar y ajustar estrategias en Italia, Nueva Zelanda y España debido al bajo rendimiento en 2021. Considerar factores como estrategias de marketing locales, productos ofrecidos y competencia.
+2. **Análisis de Disminución en 2022:** Investigar las causas de la disminución general de ventas en 2022, considerando posibles problemas globales o de segmentación del mercado.
+3. **Mejoras en Mercados con Bajas Transacciones:** Implementar mejoras en mercados con bajas transacciones, incluyendo revisiones logísticas y opciones de pago para facilitar las ventas.
 
 
 ## Nivell 1 - Exercici 2

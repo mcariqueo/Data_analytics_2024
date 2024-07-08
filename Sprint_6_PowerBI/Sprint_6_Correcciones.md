@@ -18,7 +18,7 @@ Para ello, seguimos los siguientes pasos:
    ![c](files_6/611c.png)
 
 4. **Incluir una segmentación de datos** por año y país.
-   ![d](files_6/611d.png)
+![d](files_6/611d.png)
 
 5. **Filtrar los datos** para asegurarse de que solo se muestran las transacciones aprobadas (`declined = 0`):
    ![612a](files_6/612a.png)

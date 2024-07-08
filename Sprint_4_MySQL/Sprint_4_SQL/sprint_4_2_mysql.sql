@@ -1,15 +1,5 @@
 # Sprint 4 - Nivel 1
 
-
-
-
-
-
-
-
-
-
-
 ## Exercici 2
 /* Mostra la mitjana de la suma de transaccions per IBAN de les targetes de crèdit en la companyia Donec Ltd. utilitzant almenys 2 taules.*/
 SELECT c.company_name, ROUND(AVG(t.amount), 2) AS media_amount FROM transactions t

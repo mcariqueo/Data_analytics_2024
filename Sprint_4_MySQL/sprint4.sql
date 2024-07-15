@@ -143,6 +143,12 @@ SELECT * FROM card_status;
 
 SELECT count(card_id) FROM card_status WHERE estado = "Activa";
  
+ 
+ 
+ 
+ 
+ 
+ 
  -- SPRINT 4 - NIVELL 3
 /* Crea una taula amb la qual puguem unir les dades del nou arxiu products.csv amb la base de dades creada, tenint en compte que des de transaction tens product_ids. */
 
@@ -176,6 +182,8 @@ SELECT 	t.id AS transaction_id,
 FROM  	transactions t
 JOIN  	products p ON 1
 WHERE 	p.id <= LENGTH(t.product_ids) - LENGTH(REPLACE(t.product_ids, ',', '')) + 1;
+
+
 -- ahora relaciono la tabla products con transactios a traves de la tabla product_tx
 ALTER TABLE product_tx
 ADD CONSTRAINT fk_transaction_id
@@ -187,12 +195,10 @@ FOREIGN KEY (product_id) REFERENCES products(id);
 ALTER TABLE transactions
 DROP FOREIGN KEY fk_produtcs_id;
 
+
+
 --  SPRINT 4 - NIVELL 3Exercici 1
 -- Necessitem conèixer el nombre de vegades que s'ha venut cada producte.
-
-SELECT product_id, count(product_id) AS veces_vendido FROM product_tx
-GROUP BY product_id;
-
 
 
 SELECT 	products.id,
@@ -207,6 +213,7 @@ WHERE product_id <= (LENGTH(transactions.product_ids) - LENGTH(REPLACE(transacti
 GROUP BY product
 ORDER BY product) AS tabla ON tabla.product = products.id;
 
-
+SELECT product_id, count(product_id) AS veces_vendido FROM product_tx
+GROUP BY product_id;
 
 

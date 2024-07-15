@@ -1,4 +1,4 @@
-## Sprint S9.01. Consultas con MongoDB
+## Sprint S9.01. Consultas con MongoDB - Nivell 1
 
 Trabajaremos con una base de datos que contiene colecciones relacionadas con una aplicación de entretenimiento cinematográfico:
 
@@ -10,14 +10,13 @@ Trabajaremos con una base de datos que contiene colecciones relacionadas con una
 
 Llevarás a cabo algunas consultas que te pide el cliente/a, el cual está midiendo si serás capaz o no de hacerte cargo de la parte analítica del proyecto vinculado con su base de datos.
 
-## Nivell 1
-
 **Crear una base de datos con MongoDB**
 
 Para crear la base de datos utilizando como colecciones los archivos adjuntos   
 ![901](files_s9/901.png)
 
-1. Es necesario indicar la base de datos que queremos utilizar:           
+Es necesario indicar la base de datos que queremos utilizar:         
+  
 ![902](files_s9/902.png)
 
 ### Exercici 1

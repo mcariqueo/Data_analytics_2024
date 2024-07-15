@@ -1,7 +1,4 @@
-
-## Sprint S9.01. Consultas con MongoDB
-
-## Nivell 2
+## Sprint S9.01. Consultas con MongoDB - Nivell 2
 ### Exercici 1
 **Cuenta cuántos comentarios escribe un usuario/a que utiliza "GAMEOFTHRON.ES" como dominio de correo electrónico.**
 
@@ -10,7 +7,6 @@ Para contar cuántos comentarios ha escrito un usuario que utiliza "GAMEOFTHRON.
 ![9211](files_s9/9211.png)
 
 Esta consulta utiliza una expresión regular para buscar correos electrónicos que terminan con "@GAMEOFTHRON.ES", sin importar las mayúsculas o minúsculas.
-
 
 Hay 22814 comentarios realizados por usuarios con el dominio “gameofthron.es”.
 
